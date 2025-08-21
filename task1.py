@@ -1,8 +1,5 @@
-n1=input("Enter the first number: ")
-n2=input("Enter the second number: ")
-n1=int(n1)
-n2=int(n2)
-print("Addition: ",n1+n2)
-print("Subtraction: ",n1-n2)
-print("Multiplication: ",n1*n2)
-print("Subtraction: ",n1/n2)
+n=int(input("Enter the number:"))
+if(n%2==0):
+    print(n," is a even number")
+else:
+    print(n," is a odd number")
